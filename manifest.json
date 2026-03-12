@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram DM Mini Window",
+  "version": "1.0.0",
+  "description": "Open Instagram DM in a small popup window.",
+  "permissions": ["tabs", "windows"],
+  "host_permissions": ["https://www.instagram.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Toggle Instagram DM Mini"
+  },
+  "commands": {
+    "toggle-dm-mini-window": {
+      "suggested_key": {
+        "default": "Alt+Shift+M",
+        "mac": "MacCtrl+Shift+M"
+      },
+      "description": "Toggle Instagram DM mini window"
+    }
+  }
+}
