@@ -1,15 +1,16 @@
 {
   "manifest_version": 3,
-  "name": "Instagram DM Mini Window",
+  "default_locale": "en",
+  "name": "__MSG_appName__",
   "version": "1.0.0",
-  "description": "Open Instagram DM in a small popup window.",
+  "description": "__MSG_appDescription__",
   "permissions": ["tabs", "windows"],
   "host_permissions": ["https://www.instagram.com/*"],
   "background": {
     "service_worker": "background.js"
   },
   "action": {
-    "default_title": "Toggle Instagram DM Mini"
+    "default_title": "__MSG_actionTitle__"
   },
   "commands": {
     "toggle-dm-mini-window": {
@@ -17,7 +18,7 @@
         "default": "Alt+Shift+M",
         "mac": "MacCtrl+Shift+M"
       },
-      "description": "Toggle Instagram DM mini window"
+      "description": "__MSG_toggleCommandDescription__"
     }
   }
 }

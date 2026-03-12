@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "Instagram DM Mini Window"
+  },
+  "appDescription": {
+    "message": "Open and close Instagram DM in a small popup window."
+  },
+  "actionTitle": {
+    "message": "Toggle Instagram DM Mini"
+  },
+  "toggleCommandDescription": {
+    "message": "Toggle Instagram DM mini window"
+  }
+}

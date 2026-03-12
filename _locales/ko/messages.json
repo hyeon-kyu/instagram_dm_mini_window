@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "인스타그램 DM 미니 뷰어"
+  },
+  "appDescription": {
+    "message": "인스타그램 DM을 작은 팝업 창으로 열고 닫습니다."
+  },
+  "actionTitle": {
+    "message": "인스타그램 DM 미니 뷰어 토글"
+  },
+  "toggleCommandDescription": {
+    "message": "인스타그램 DM 미니 뷰어 열기/닫기"
+  }
+}
